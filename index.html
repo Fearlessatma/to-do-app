@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO-NITIK</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--the full page view -->
+    <div class="container">
+
+        <!--the to-do box where input is given-->
+         <div class="todo">
+             <h2>TO-DO-LIST <img src="to-do-list.png"></h2>
+             <div class="row">
+                <input type="text" id="input-box" placeholder="add your text">
+                <button onclick="AddTask()">Add </button>
+             </div>
+             <ul id="list_conatainer">
+                <!--an empty list which will be filled  using js -->            
+             </ul>
+
+             <!--the division to show the number of task-->
+             <div class="footer">
+                <p id="count">
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>
